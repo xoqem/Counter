@@ -9,7 +9,7 @@ class Counter extends PureComponent {
     const { count } = this.props;
 
     return (
-      <div>
+      <div className="Counter">
         <div>
           <button onClick={this.props.decrement}>-</button>
           <button onClick={this.props.increment}>+</button>
